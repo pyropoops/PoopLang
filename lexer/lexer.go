@@ -156,6 +156,10 @@ func (l *Lexer) throwLexerError(err string) {
 	l.ch = 0
 }
 
+func (l *Lexer) GetErrors() []string {
+	return l.errors
+}
+
 func isLetter(char byte) bool {
 	return 'a' <= char && char <= 'z' || 'A' <= char && char <= 'Z' || char == '_'
 }
