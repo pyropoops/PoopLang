@@ -2,9 +2,7 @@
 
 ## Getting started
 
-```
 At the current state, the interpreter is nothing more than a lexical tokenizer, it will read inputs from the source code (or in this case, console's REPL) and spit out the array of tokens it generates
-```
 
 ```
 Tokens are nothing more than [Token's Type, Token's Literal]
